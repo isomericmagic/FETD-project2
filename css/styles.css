@@ -120,6 +120,10 @@ a:link, a:visited {
 }  /* needed to set this to prevent the margin from knocking down the some of the 
    portfolio elements when the dynamic text box size gets too small on one side */
 
+#navbar {
+	padding-left: 15px; /* this is to clean up some generic padding */
+}
+
 .group:after {
   content: "";
   display: table;
@@ -209,18 +213,18 @@ a:link, a:visited {
   }
   #home-nav {
   display: inline-block;
-  width: 15%;
+  width: 20%;
   background-color: #f6f6f6;
   margin-left: 20px;
   }
   #portfolio-nav {
   display: inline-block;
-  width: 15%;
+  width: 20%;
   background-color: #f6f6f6;
   }
   #contact-nav {
   display: inline-block;
-  width: 15%;
+  width: 20%;
   background-color: #f6f6f6;
   }        
   #marketing-page {
