@@ -1,0 +1,260 @@
+/* Main CSS */
+body {
+  font-family: "Gudea", serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.navigation {
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+p {
+  text-align: center;
+}
+
+#header-container {
+  background-color: #f6f6f6;
+  padding-bottom: 30px;
+}
+
+#header-items {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#profile-image {
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#portfolio-title-line {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+.portfolio-images {
+	width: 95%;
+  display: block;
+	margin: 0 auto;
+}
+
+.portfolio-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#main-body {
+  padding-bottom: 30px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#footer-container {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+}
+
+#footer-items {
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+#footer-title-line {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#email-line {
+  padding-bottom: 40px;	
+  border-bottom: 1px solid lightgray;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+#student-name {
+	display: inline;
+	width: 50%;
+	margin: 0px;
+}
+
+#back-to-top {
+  display: inline;
+  float: right;
+  width: 50%;
+  margin: 0px;
+  text-align: right;
+  padding-bottom: 30px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.portfolio-description {
+  min-height: 60px;
+}  /* needed to set this to prevent the margin from knocking down the some of the 
+   portfolio elements when the dynamic text box size gets too small on one side */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* tablet media queries */
+@media (min-width: 768px) {
+  #navbar {
+  text-align: center;
+  }
+  #home-nav {
+  display: inline-block;
+  width: 15%;
+  background-color: #f6f6f6;
+  }
+  #portfolio-nav {
+  display: inline-block;
+  width: 15%;
+  background-color: #f6f6f6;
+  }
+  #contact-nav {
+  display: inline-block;
+  width: 15%;
+  background-color: #f6f6f6;
+  }
+  #profile-image {
+  display: inline-block;
+  float: right;
+  width: 48%;
+  margin: 0px;
+  }
+  #profile-text {
+  display: inline-block;
+  width: 48%;
+  margin: 0px;
+  float: left;
+  padding-top: 25px;
+  }         
+  #marketing-page {
+  display: inline-block;
+  width: 50%;
+  margin: 0px;
+  } 
+  #search-page {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  margin: 0px;
+  }
+  #travel-app {
+  display: inline-block;
+  width: 50%;
+  margin: 0px;
+  } 
+  #map-of-favorite-spots {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  margin: 0px;
+  }
+  #photo-gallery {
+  display: inline-block;
+  width: 50%;
+  margin: 0px;
+  } 
+  #calculator {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  margin: 0px;
+  }
+}
+
+/* desktop / large screen queries */
+@media (min-width: 1024px) {
+  #header-title-text {
+  display: inline-block;
+  width: 40%;
+  text-align: left;	
+  }
+  #navbar {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  text-align: right;
+  }
+  #home-nav {
+  display: inline-block;
+  width: 15%;
+  background-color: #f6f6f6;
+  margin-left: 20px;
+  }
+  #portfolio-nav {
+  display: inline-block;
+  width: 15%;
+  background-color: #f6f6f6;
+  }
+  #contact-nav {
+  display: inline-block;
+  width: 15%;
+  background-color: #f6f6f6;
+  }        
+  #marketing-page {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  margin: 0px;
+  } 
+  #search-page {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  margin: 0px;
+  }
+  #travel-app {
+  display: inline-block;
+  width: 33%;
+  margin: 0px;
+  } 
+  #map-of-favorite-spots {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  margin: 0px;
+  }
+  #photo-gallery {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  margin: 0px;
+  } 
+  #calculator {
+  display: inline-block;
+  width: 33%;
+  margin: 0px;
+  }       
+}
